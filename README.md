@@ -7,6 +7,9 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -27,6 +30,8 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
+### Tech Stack <a name="tech-stack"></a>
+
 <details>
   <summary>Database</summary>
   <ul>
@@ -38,17 +43,29 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 Getting Started <a name="getting-started"></a>
+### Key Features <a name="key-features"></a>
+
+- [ ] **Create/Delete database**
+- [ ] **Insert/Delete data**
+- [ ] **Query database**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- **N/A**
+
+# 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+## Prerequisites
 
 In order to run this project you need:
 
 - `postgreSQL` installed on your local machine
 
-### Setup
+## Setup
 
 Clone this repository to your desired folder:
 
@@ -57,17 +74,17 @@ Clone this repository to your desired folder:
   cd vet-clinic-db
 ```
 
-### Install
+## Install
 
 To install `postgreSQL` go to : [PostgreSQL Downloads](https://www.postgresql.org/download/) and select your operating system.
 
-### Usage
+## Usage
 
 To run the project, open your `psql terminal` or `pgAdmin` and after that you can create the schema, add data and query the database.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Authors <a name="authors"></a>
+# 👥 Authors <a name="authors"></a>
 
 👤 **Henschel Nketchogue M.**
 
@@ -77,13 +94,13 @@ To run the project, open your `psql terminal` or `pgAdmin` and after that you ca
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
+# 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Add more tables**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing <a name="contributing"></a>
+# 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
@@ -91,19 +108,19 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ⭐️ Show your support <a name="support"></a>
+# ⭐️ Show your support <a name="support"></a>
 
 If you like this project, don't forget to give a star ⭐ on this repository.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+# 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank **![](https://img.shields.io/badge/Microverse-blueviolet).**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License <a name="license"></a>
+# 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE.md) licensed.
 
