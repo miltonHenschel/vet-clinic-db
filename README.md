@@ -7,6 +7,8 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -27,6 +29,8 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
+### Tech Stack <a name="tech-stack"></a>
+
 <details>
   <summary>Database</summary>
   <ul>
@@ -35,6 +39,14 @@
 
   </ul>
 </details>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Key Features <a name="key-features"></a>
+
+- [ ] **Create/Delete database**
+- [ ] **Insert/Delete data**
+- [ ] **Query database**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
