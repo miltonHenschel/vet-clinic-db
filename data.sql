@@ -88,3 +88,13 @@ INSERT INTO visits (animals_id,vets_id,date_of_visit) VALUES (9,2,'2020-02-27');
 INSERT INTO visits (animals_id,vets_id,date_of_visit) VALUES (9,2,'2020-08-03');
 INSERT INTO visits (animals_id,vets_id,date_of_visit) VALUES (10,3,'2020-05-24');
 INSERT INTO visits (animals_id,vets_id,date_of_visit) VALUES (10,1,'2021-01-11');
+
+-- pair programming
+
+INSERT INTO animals (name) VALUES ('Agumon'), ('Gabumon'), ('Pikachu'), ('Devimon'), ('Charmander'), ('Plantmon'), ('Squirtle'), ('Angemon'), ('Boarmon'), ('Blossom');
+
+INSERT INTO vets (name) VALUES ('William Tatcher'), ('Maisy Smith'), ('Stephanie Mendez'), ('Jack Harkness');
+
+INSERT INTO visits (animal_id, vet_id, date_of_visit) SELECT * FROM (SELECT id FROM animals) animal_ids, (SELECT id FROM vets) vets_ids, generate_series('1980-01-01'::timestamp, '2021-01-01', '4 hours') visit_timestamp;
+
+insert into owners (full_name, email) select 'Owner ' || generate_series(1,2500000), 'owner_' || generate_series(1,2500000) || '@mail.com';
