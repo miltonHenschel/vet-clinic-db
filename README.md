@@ -1,5 +1,20 @@
 <a name="readme-top"></a>
 
+<div align="center">
+
+  <img src="https://user-images.githubusercontent.com/65084923/229625646-f5177182-4280-4f3f-98a4-baa49d71d544.png" alt="logo" width="350"  height="auto" />
+  <img src="https://user-images.githubusercontent.com/65084923/229625913-4d4f5397-c1af-4ef1-9589-3abb74a3eeaa.png" alt="logo" width="350"  height="auto" />
+  <br/>
+  <img src="https://user-images.githubusercontent.com/65084923/220200035-01fa5e08-af6a-495b-b597-55157a2b7d95.gif" alt="logo" />
+  <br/>
+
+  <h3><b>Vet Clinic Database</b></h3>
+  <h3><b>Vet Clinic Database - PostsgreSQL Microverse Project</b></h3>
+
+</div>
+
+<a name="readme-top"></a>
+
 <details>
   <summary>
     <h1>📗 Table of Contents</h1>
@@ -44,10 +59,14 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Key Features <a name="key-features"></a>
-
-- [ ] **Create/Delete database**
-- [ ] **Insert/Delete data**
-- [ ] **Query database**
+- [ ]  **Animals Table**
+- [ ]  **Species Table**
+- [ ]  **Owners Table**
+- [ ]  **Multiple Queries**
+- [ ]   **Join Queries**
+- [ ]   **Use Transaction**
+- [ ]   **Use Relations One to Many & Many to Many**
+- [ ]   **DB Schema**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,6 +110,11 @@ To run the project, open your `psql terminal` or `pgAdmin` and after that you ca
 - GitHub: [miltonHenschel](https://github.com/miltonHenschel)
 - LinkedIn: [miltonhenschel](https://www.linkedin.com/in/miltonhenschel/)
 - Twitter: [nketchogue](https://twitter.com/nketchogue)
+
+  👤 **TUMBU BARTHOLOMEW ELAD**
+- GitHub: [@githubhandle](https://github.com/elad237)
+- Twitter: [@twitterhandle](https://twitter.com/Elad59380989)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tumbu-elad/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

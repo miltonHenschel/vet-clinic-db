@@ -98,3 +98,13 @@ select a.name, vt.name, v.date_of_visit most_recent_date_visited from animals a 
 SELECT COUNT(*) nbr_visit_not_specialized FROM (SELECT vt.name,a.name animal_visited, sp.species_id vet_specialities,a.species_id animal_species,date_of_visit FROM animals a JOIN visits v ON a.id = v.animals_id JOIN vets vt ON vt.id = v.vets_id LEFT JOIN specializations sp ON sp.vets_id=v.vets_id WHERE sp.species_id != a.species_id OR sp.species_id IS NULL) visit_not_specialized;
 
 SELECT s.name,a.species_id,COUNT(a.species_id) most_visited_species FROM animals a JOIN visits v ON a.id = v.animals_id JOIN vets vt ON vt.id = v.vets_id LEFT JOIN specializations sp ON sp.vets_id=v.vets_id JOIN species s ON s.id = a.species_id WHERE vt.id = 2 GROUP BY a.species_id, s.name ORDER BY COUNT(a.species_id) DESC LIMIT 1;
+
+-- pair programming
+
+SELECT COUNT(*) FROM visits where animal_id = 4;
+SELECT * FROM visits where vet_id = 2;
+SELECT * FROM owners where email = 'owner_18327@mail.com';
+
+explain analyze SELECT COUNT(*) FROM visits where animal_id = 4;
+explain analyze SELECT * FROM visits where vet_id = 2;
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
