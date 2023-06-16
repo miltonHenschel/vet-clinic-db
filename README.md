@@ -121,6 +121,8 @@ To run the project, open your `psql terminal` or `pgAdmin` and after that you ca
 # 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Add more tables**
+- [ ] - [ ] **Add more queries**
+- [ ] - [ ] **Add relationship diagram**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
